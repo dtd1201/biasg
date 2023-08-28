@@ -1,0 +1,295 @@
+#banner-intro {
+  margin-top: 108px;
+}
+/******** INTRO COMPANY ********/
+.wrap-timeline {
+  top: 108px;
+  z-index: 10;
+  position: sticky;
+  background-color: #fff;
+}
+.time-line {
+  padding-top: 24px;
+  padding-left: 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.time-line a{
+  text-decoration: none;
+  color: #000;
+}
+
+.time-line li {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+}
+.time-line .link-scroll.active {
+  font-weight: 600;
+  border-bottom: 3px solid var(--primary);
+}
+/* #intro-company .time-line .active {
+  font-weight: 600;
+  border-bottom: 3px solid var(--primary);
+} */
+#intro-company .title {
+  font-size: 2.4rem;
+  line-height: 46px;
+  margin: 50px 0 40px;
+  text-transform: uppercase;
+}
+#intro-company .title div {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+#intro-company .title div span {
+  color: var(--primary);
+}
+#intro-company .desc  {
+  color: #454545;
+  font-size: 1.8rem;
+  margin-bottom: 100px;
+}
+#intro-company .desc span {
+  font-weight: 700;
+}
+#intro-company .company-img {
+  overflow: hidden;
+  border-radius: 23px;
+}
+#intro-company .company-infor {
+  margin-left: 70px;
+  margin-bottom: 0;
+}
+#intro-business .company-infor li,
+#intro-company .company-infor li {
+  margin-bottom: 20px;
+}
+#intro-company .company-infor li:last-child {
+  font-weight: 600;
+  font-style: italic;
+  color: var(--primary);
+}
+/******** INTRO BUSINESS ********/
+#intro-business {
+  padding: 100px 0;
+}
+#intro-business .bg-content {
+  background-size: contain;
+}
+/******** INTRO HISTORY ********/
+.title-heading {
+  margin-bottom: 70px;
+}
+.title-heading h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 0 16px;
+  text-transform: uppercase;
+}
+.line-middle {
+  width: 46px;
+  height: 1px;
+  background-color: #000;
+}
+#intro-history .history-detail {
+  padding: 70px 0;
+}
+#intro-history .year-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+#intro-history .year .line {
+  width: 66px;
+  height: 2px;
+  margin-bottom: 30px;
+  background-color: var(--primary);
+}
+#intro-history .year ul {
+  margin-left: 0;
+  margin-bottom: 40px;
+}
+#intro-history .year li {
+  margin-left: 50px;
+  margin-bottom: 8px;
+}
+/******** INTRO ORGANIZATION ********/
+#intro-organization .diagram-img {
+  padding: 80px 0 100px;
+  background-color: #e6e6e6;
+}
+/******** INTRO VISION ********/
+#intro-vision {
+  padding: 100px 0 50px;
+}
+#intro-vision .vision-img {
+  border-bottom-right-radius: 248px;
+}
+#intro-vision .vision-detail {
+  margin: 106px 120px 0 135px;
+}
+#intro-vision .title-heading {
+  margin-bottom: 40px;
+}
+#intro-vision .mission-img {
+  border-top-left-radius: 248px;
+}
+/******** INTRO MISSION ********/
+#intro-mission {
+  padding: 50px 0 70px;
+}
+#intro-mission .mission-detail {
+  width: 344px;
+  margin: 145px 0 0 200px;
+}
+#intro-mission .title-heading {
+  margin-bottom: 40px;
+}
+/******** CORE VALUE ********/
+#core-value {
+  padding: 40px 0;
+}
+#core-value .core-infor {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+#core-value .core-detail {
+  height: 325px;
+  padding: 65px 35px;
+  border-radius: 10px;
+  background: #F9F9F9;
+  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.10);
+}
+#core-value .core-detail h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+#core-value .core-detail .desc {
+  margin-top: 16px;
+  font-size: 1.4rem;
+}
+#core-value .core-icon {
+  left: 142.5px;
+  top: -40px;
+  position: absolute;
+}
+#core-value .col-value {
+  padding: 0 20px;
+}
+#core-value .row {
+  margin: 0 -20px;
+}
+/******** CERTIFICATE ********/
+.swiper_cer {
+  width: 95%;
+  height: auto;
+  position: relative;
+}
+#certificate .container-1160 {
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+#certificate .swiper-slide {
+  box-shadow: 2px 2px 30px 0px rgba(0, 0, 0, 0.10);
+}
+#certificate .swiper-slide-next {
+  width: 340px !important;
+  height: auto;
+}
+#certificate .swiper-slide{
+  height: auto !important;
+}
+#certificate .swiper-wrapper {
+  padding-left: 10px;
+  align-items: center;
+}
+#certificate .swiper-pagination {
+  bottom: -50px;
+}
+#certificate .swiper-pagination-bullet {
+  background-color: var(--primary) !important;
+}
+#certificate div.swiper-button-prev,
+#certificate div.swiper-button-next {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+}
+#certificate div.swiper-button-prev {
+  left: 0;
+  border-radius: 0;
+}
+#certificate div.swiper-button-next {
+  right: 0;
+  border-radius: 0;
+}
+#certificate div.swiper-button-prev::after {
+  left: -7px;
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+}
+#certificate div.swiper-button-next::after {
+  right: -62px;
+  color: #000;
+  font-size: 20px;
+  position: absolute;
+}
+
+/******** TECHNOLOGY ********/
+
+#technology .desc {
+  line-height: 2.4rem;
+  margin: 40px 0 80px;
+}
+#process .technology-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 70px;
+  line-height: 2.6rem;
+  text-transform: uppercase;
+}
+#process .number {
+  height: 44px;
+  min-width: 37px;
+  font-weight: 700;
+  margin-right: 8px;
+  padding: 8px 0;
+  font-size: 3.2rem;
+  color: var(--primary);
+  background-image: url(/image/number-circle.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#process .process {
+  margin-top: 66px;
+}
+#process .process-detail .title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 12px;
+}
+#process .container-1160 {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #dcdcdc;
+}
+#intro-business .align-items-center{
+  padding: 0px 0px 100px 0px;
+  align-items: unset !important;
+}
+#intro-business{
+  padding: 0 !important;
+}
+#intro-business .company-infor.right {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+#intro-business .company-infor.right li:last-child {
+  font-weight: 600;
+  font-style: italic;
+  color: var(--primary);
+}

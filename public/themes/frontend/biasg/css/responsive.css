@@ -1,0 +1,327 @@
+@media (max-width : 576px) {
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+  #header .icon-menu {
+    display: block;
+  }
+  #header .header-infor,
+  #header .header-wrap {
+    display: none !important;
+  }
+  #header .container-header {
+    padding: 0 16px;
+    align-items: center;
+  }
+  #header .menu-link {
+    margin-left: 4px;
+  }
+  .swiper {
+    height: auto;
+  }
+  .swiper-tab {
+    width: 100%;
+    height: 30px;
+  }
+  .swiper-tab .swiper-slide {
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+  }
+  div.swiper-button-prev,
+  div.swiper-button-next {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: var(--primary);
+  }
+  div.swiper-button-prev::after {
+    font-size: 16px;
+    left: -4px;
+  }
+  div.swiper-button-next::after {
+    font-size: 16px;
+    right: -4px;
+  }
+  #about-us {
+    padding: 40px 0;
+  }
+  #about-us .about-detail {
+    margin-left: 0;
+  }
+  #about-us .section-title {
+    margin: 30px 0 16px;
+  }
+  #about-us .desc {
+    margin-bottom: 20px;
+  }
+  .bg-content {
+    background: none;
+  }
+  #product .detail-content,
+  #list-product .detail-content {
+    margin-left: 6px;
+    margin-top: 50px;
+  }
+  #product .detail-img {
+    text-align: center;
+  }
+  #product .section-title div {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  #product .tab-item {
+    width: 70px;
+  }
+  #list-product .container-product {
+    padding-bottom: 7.5px;
+  }
+  #list-product .section-title {
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding-top: 70px;
+    margin-bottom: 20px;
+  }
+  #list-product .tab-img {
+    margin-left: 0;
+  }
+  #list-product .tab-content {
+    padding: 30px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  #list-product .background {
+    display: none;
+  }
+  #list-product .swiper-tab {
+    display: block;
+  }
+  #list-product .tab-heading {
+    height: 100px;
+  }
+  #list-product .detail-img {
+    text-align: center;
+  }
+
+  #shareholder .shareholder-title span {
+    display: block;
+    transition: transform linear 0.2s;
+  }
+  #shareholder li:hover .shareholder-title span {
+    transform: translateX(8px);
+  }
+  #shareholder ul,
+  #shareholder .title {
+    margin-left: 4px;
+  }
+  #shareholder .wrap-img {
+    min-width: 45px;
+  }
+  #footer {
+    padding-top: 30px;
+  }
+  #footer .container {
+    padding-left: 20px;
+  }
+  #footer .footer-title {
+    margin-top: 16px;
+  }
+  #footer .copyright .line {
+    width: 80%;
+  }
+  #footer .logo-social {
+    display: none;
+  }
+  #footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
+    padding: 0 7.5px;
+  }
+
+  /****** CATEGORY PRODUCT *****/
+  .bottom {
+    padding: 12px;
+  }
+  #category-product .product-detail {
+    padding: 50px 0;
+  }
+  #category-product .product-img {
+    margin-left: 0;
+  }
+  #category-product .detail-content {
+    margin-left: 0;
+  }
+  #category-product .detail-content .detail-img {
+    text-align: center;
+  }
+  /****** CONTACT *****/
+  #contact .title {
+    padding-top: 30px;
+  }
+  #contact .contact-infor {
+    margin: 30px 0;
+  }
+  #contact .form-contact {
+    margin-bottom: 0;
+  }
+  #contact iframe {
+    height: 360px;
+  }
+  /****** PRODUCT DETAIL *****/
+  #product-intro {
+    padding: 80px 0;
+  }
+  #product-intro .title {
+    text-align: center;
+  }
+  #product-intro .intro-wrap {
+    margin-left: 6px;
+  }
+  #product-infor {
+    padding: 80px 0;
+    background-position: right;
+  }
+  #product-infor .infor-detail {
+    width: 100%;
+    margin-left: 6px;
+  }
+  #banner-video {
+    height: 360px;
+  }
+  #banner-video .video-infor {
+    top: 90px;
+  }
+  #banner-video .video-infor .desc,
+  #banner-video .video-infor .title {
+    display: none;
+  }
+  #product-intro ul li {
+    margin-right: 30px;
+  }
+  /****** INTRODUCE *****/
+  .title-heading {
+    margin-bottom: 30px;
+  }
+  #intro-company .time-line li {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #intro-mission .mission-detail {
+    width: 100%;
+    margin: 0 0 20px 6px;
+  }
+  #intro-company .title {
+    font-size: 2rem;
+    margin: 30px 0;
+  }
+  #intro-company .desc {
+    margin-bottom: 30px;
+  }
+  #intro-company .company-infor {
+    margin: 20px 0 0 6px;
+  }
+  #intro-vision,
+  #intro-business {
+    padding: 30px 0;
+  }
+  #intro-history .history-detail {
+    padding: 30px 8px 0;
+  }
+  #intro-vision .vision-detail {
+    margin: 30px 0 0 6px;
+  }
+  #intro-mission {
+    padding: 0;
+  }
+  #intro-mission .title-heading {
+    margin-bottom: 30px;
+  }
+  #core-value .core-infor {
+    margin: 40px 0;
+  }
+  #certificate .swiper-slide-next {
+    width: auto !important;
+    height: auto;
+  }
+  #technology .desc {
+    margin: 30px 0;
+  }
+  #technology .technology-title {
+    margin-bottom: 30px;
+  }
+  #technology .technology-process_img {
+    margin-bottom: 8px;
+  }
+  #technology .process {
+    margin-top: 30px;
+  }
+  #technology .container-1160 {
+    padding-bottom: 30px;
+  }
+  #certificate div.swiper-button-next {
+    right: 38px;
+  }
+  /****** SHAREHOLDER *****/
+  #shareholder-list {
+    padding-top: 30px;
+  }
+  #shareholder-list .shareholder-item {
+    margin-bottom: 20px;
+  }
+  /****** SHAREHOLDER DETAIL *****/
+  #shareholder-detail {
+    padding: 30px 0 0;
+  }
+  #shareholder-detail .time-line li {
+    margin-right: 20px;
+  }
+  #shareholder-detail .btn-view,
+  #shareholder-detail .btn-download {
+    padding: 4px 0;
+    min-width: 60px;
+  }
+  #shareholder-detail .btn-view img,
+  #shareholder-detail .btn-download img {
+    display: none;
+  }
+}
+
+@media (min-width : 576px) and (max-width : 992px) {
+  #category-product .product-img {
+    margin-left: 0;
+  }
+  .bottom {
+    padding: 12px;
+  }
+  #product-intro .intro-wrap {
+    margin-left: 0;
+  }
+  #shareholder-list .row {
+    margin: 0;
+  }
+  #shareholder-list .row .col-lg-6 {
+    padding: 0 7.5px;
+  }
+  #footer .logo-social + .col-lg-5 > .row > .col-lg-6 {
+    padding-left: 100px;
+  }
+  #footer .row .col-lg-5 > .row > .col-lg-6 {
+    padding-left: 40px;
+  }
+}
+@media (min-width : 576px) and (max-width : 1215px) {
+  #header .header-wrap {
+    display: none;
+  }
+  #header .icon-menu {
+    display: block;
+  }
+}
+@media (min-width : 1215px) and (max-width : 1350px) {
+  #header .menu-link {
+    margin-left: 20px;
+  }
+}

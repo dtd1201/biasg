@@ -1,0 +1,2 @@
+<a  class="btn btn-sm <?php echo e($data->is_featured==1?'btn-danger':'btn-info'); ?> lb-hot" data-value="<?php echo e($data->is_featured); ?>" data-type="<?php echo e($type?$type:''); ?>"  style="width:63px;"> <?php echo app('translator')->get(App\Consts::TITLE_BOOLEAN[$data->is_featured]); ?></a>
+<?php /**PATH C:\xampp\htdocs\honey\resources\views/admin/components/load-change-is_featured.blade.php ENDPATH**/ ?>
